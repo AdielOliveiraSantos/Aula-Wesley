@@ -1,31 +1,23 @@
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-style: none;
-    text-decoration: none;
+.conteudo {
+    width: 450px;
+    padding: 20px;
+    background-color: rgb(205, 230, 252);
+    border: 2px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    margin: 50px auto 0;
 }
 
-header {
-    background-color: #ffbbdd;
+.opcao {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.253) 0px 2px;
 }
 
-nav {
-    background-color: #f0b0d0;
+.resposta {
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.253) 0px 2px;
 }
-
-footer {
-    background-color: #ffbbdd;
-}
-
-.titulo {
-    margin-left: 300px;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-}
-
-.preco {
-    font-weight: bold;
-}
-
